@@ -1,0 +1,302 @@
+body
+{
+	padding-top:51px;
+	overflow: hidden;
+	
+
+}
+  /***********************************colorpeaker***************************************/
+  .colo_piker
+  {
+  	position: fixed;
+  	top: 100px;
+  	left: 10px;
+  	color:#fff; 
+  	z-index: 9999;
+  }
+  .color_box
+  {
+  	width: 100px;
+  	padding: 10px;
+  	background-color: #333;
+  	float: left;
+  	display: none;
+  	
+  } 
+  .color_box li
+  {
+    float: left;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    
+  }
+  .colo_piker .gearBox
+  {
+  	padding: 2px;
+  	
+  	cursor: pointer;
+  }
+  /***********************************navbar links**************************************/
+
+  
+  .navbar-inverse .navbar-nav > li > a{
+  	color: #dcd6d6;
+  }
+  /***********************************navbar links**************************************/
+  
+  
+
+  /***********************************navbar brand**************************************/
+  .navbar-inverse .navbar-brand {
+    color: #dcd6d6;
+    font-size: 35px;
+  }
+  /***********************************navbar brand**************************************/
+  
+  
+
+
+  /***********************************dropdown-menu**************************************/
+  .navbar-nav > li > .dropdown-menu{
+    background-color: #222222;
+    
+    left: 0;
+    right: auto;
+    min-width: 200px;
+  }
+  /***********************************dropdown-menu**************************************/
+  /***********************************dropdown-menu links********************************/
+  .dropdown-menu > li > a
+  {
+  	color: #fff;
+  	padding: 8px 20px;
+  	transition: padding 0.5s ease;
+  }
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #fff;
+    text-decoration: none;
+    
+    padding-left: 30px;
+  } 
+  /***********************************dropdown-menu links********************************/  
+
+  /***********************************dropdown-menu divider********************************/  
+
+
+  
+ /***********************************dropdown-menu divider********************************/ 
+
+
+  /***********************************slider**********************************************/ 
+  .carousel-caption
+  {
+  	bottom: 210px;
+  	background-color: rgba(1,1,1,0.4);
+  	padding-right: 10px;
+  	padding-left: 10px;
+  	border-radius: 10px;
+  }
+  .carousel-indicators 
+  {
+    bottom: 130px;
+  }
+  /***********************************featurs*********************************************/
+  .features
+  {
+  	background-color: #ddd;
+  	padding-top: 2%;
+  	padding-bottom: 2%;
+
+  }
+ 
+  /********************************testemonials****************************************/
+  .testmonials
+  {
+  	
+  	margin-top: 2%;
+  }
+  
+   .testmonials .carousel-indicators
+  {
+  	position: static;
+  	width: 100%;
+  	margin-left: 0;
+  }
+  .testmonials .carousel-indicators li
+   {
+   	 
+   	width: 80px;
+   	height: 80px;
+   	text-indent: 0px;
+   	border-radius: 50%;
+   	overflow: hidden;
+   } 
+  
+  .testmonials .carousel-indicators li img
+   {
+     width: 100%;
+     height: 100%;
+   }
+   /*****************shop*****************************************/
+   .box-schop
+   {
+   	background: #ddd;
+   	width: 200px;
+   	padding: 3% 5%;
+   	    margin: 0 auto 15px;
+   }
+
+   /******************team****************************************/
+   .ourTeam
+   {
+   	margin-top: 5%;
+   	background:url("../images/trolltunga.jpg") no-repeat ;
+   	background-size: cover;
+   	width: 100%;
+   	min-height: 400px;
+   	color: #fff;
+   }
+   .transparent
+   {
+   	background-color: rgba(2,2,2,0.6);
+   	width: 100%;
+   	min-height: 400px;
+   	padding-top: 5%;
+   	padding-bottom:5%;
+
+   }
+   /******************************************subscribe*****************************/
+   .Subscribe
+   {
+   	background-color: #ddd;
+   	padding-top: 2%;
+   	padding-bottom: 5%;
+   }
+   /******************************************subscribe*****************************/
+   /******************************************statistique*****************************/
+   .statistics
+   {
+   	background:url("../images/azback2nature_adventures276.jpg") no-repeat center center fixed;
+   	background-size:cover;
+   	width: 100%;
+   	min-height: 400px;
+    color: #fff;
+   }
+   .statistics h1
+   {
+   	margin-bottom: 5%;
+   }
+   .statistics .stat
+   {
+   	margin-bottom: 10%;
+   }
+   /******************************************statistique*****************************/
+   /*****************************************ourskills********************************/
+   .ourskills
+   {
+   	padding-top: 5%;
+   	padding-bottom: 2%;
+   }
+   .ourskills h1
+   {
+   	
+   	margin-bottom: 5%;
+   }
+   .ourskills .progress
+   {
+   	height: 40px;
+   }
+   .ourskills .progress-bar
+   {
+   	font-weight: bold;
+   	line-height: 40px;
+   }
+   .ourskills .info h3
+   {
+      margin-top: 0px;
+      
+      font-weight:bold;
+   }
+   /*********************contact us*********************************************/
+   .contact_us
+   {
+   	background: url("../images/azback2nature_adventures276.jpg") no-repeat center center fixed;
+   	background-size: cover;
+   	min-height: 400px;
+    color: #fff; 
+   }
+   .contact_us textarea
+   {
+   	width: 100%;
+   	height: 115px;
+   }
+   .contact_us textarea,.contact_us input
+   {
+   	background: none;
+    color: #fff;
+   }
+   /***************************************partners*****************************/
+   .partners
+   {
+   	padding-bottom: 5%;
+   	padding-top: 5%;
+   	background-color: #3a3537;;
+
+   }
+   .partners img
+
+   {
+   	transition: all 1s ease;
+   	opacity: 0.7;
+   }
+   .partners img:hover
+   {
+   		opacity: 1;
+   }
+   /***************************************footer**************************************/
+   footer
+   {
+   	background-color: #eee;
+   }
+
+   footer .site-maps li
+   {
+   	float: left;
+   	width: 33.3333%;
+   }
+   .copy
+   {
+   	background-color: #222;
+   	color: #fff;   
+   }
+   .loading
+   {
+   	background-color: #222;
+   	color: #fff;
+   	width: 100%;
+   	height:100%;
+   	z-index: 999999;
+   	position: absolute;
+   	left: 0;
+   	top: 0;
+
+   }
+   /**********************************************back btn*****************************************/
+   #back_button
+   {
+   	width: 60px;
+   	height: 40px;
+   	color: #fff;
+   	background-color: #777;
+   	position: fixed;
+   	bottom: 10px;
+   	right: 10px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+   }
+
+
+
+   

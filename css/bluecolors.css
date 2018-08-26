@@ -1,0 +1,27 @@
+.color_box,
+ .contact_us textarea,.contact_us input
+  {
+  	border: 1px solid blue;
+  } 
+  .colo_piker .gearBox,
+  .navbar-inverse .navbar-nav > .active > a,
+  .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus,
+  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, 
+  .dropdown-menu .divider,
+  .testmonials .carousel-indicators .active,
+  .dropdown-menu .divider
+   {
+   
+    background-color: blue;
+   }
+  .navbar-nav > li > .dropdown-menu{
+    
+    border-top: 1px solid blue;
+    
+  }
+  .features h3
+  {
+
+     color: blue;  
+  }
